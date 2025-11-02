@@ -265,7 +265,7 @@ Customize the AI agent in `src/lib/ai/mobile-chat-agent.ts`:
 
 ### Getting Help
 - 📧 **Email**: pratyushg2001@gmail.com
-- 🐛 **LinkedIn**: https://www.linkedin.com/in/pratyush-gupta24
+- **LinkedIn**: https://www.linkedin.com/in/pratyush-gupta24
   
 ---
 
