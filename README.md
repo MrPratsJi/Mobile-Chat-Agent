@@ -6,11 +6,11 @@ A sophisticated AI-powered conversational shopping assistant for mobile phones, 
 
 **🔗 [Try the Live Demo](https://mobile-chat-agent-five.vercel.app)**
 
-> 🎯 **Try these sample queries:**
-> - "Best camera phone under ₹30,000?"
-> - "Compare iPhone 15 Pro vs Pixel 8a"
-> - "Gaming phones with good battery life"
-> - "What is OIS and EIS?"
+🎯 **Try these sample queries:**
+- "Best camera phone under ₹30,000?"
+- "Compare iPhone 15 Pro vs Pixel 8a"
+- "Gaming phones with good battery life"
+- "What is OIS and EIS?"
 
 ## ✨ Key Features
 
@@ -165,9 +165,7 @@ User Input → Safety Filter → Query Parser → Intent Detection → Response 
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `GOOGLE_AI_API_KEY` | Google Gemini API key (server-side) | ✅ Yes |
-| `NEXT_PUBLIC_APP_NAME` | Application name | ❌ No |
-| `NEXT_PUBLIC_APP_URL` | Deployment URL | ❌ No |
+| `GOOGLE_AI_API_KEY` | Google Gemini API key (server-side)
 
 ### Customization
 
@@ -188,55 +186,6 @@ Customize the AI agent in `src/lib/ai/mobile-chat-agent.ts`:
 - Adjust intent recognition patterns
 - Modify response generation logic
 - Update safety filters
-
-#### UI Customization
-- **Colors**: Edit Tailwind config in `tailwind.config.js`
-- **Components**: Modify components in `src/components/`
-- **Styles**: Update global styles in `src/app/globals.css`
-
-## 🚢 Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. **Push to GitHub**
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
-   ```
-
-2. **Import to Vercel**
-   - Visit [vercel.com/import](https://vercel.com/import)
-   - Connect your GitHub repository
-   - Configure environment variables
-   - Deploy
-
-3. **Set Environment Variables**
-   In Vercel dashboard:
-   - Go to Settings → Environment Variables
-   - Add `GOOGLE_AI_API_KEY` with your API key
-
-### Alternative Deployment Options
-
-#### Netlify
-```bash
-npm run build
-# Upload .next folder to Netlify
-```
-
-#### Railway
-```bash
-railway login
-railway init
-railway add --variable GOOGLE_AI_API_KEY=your_key
-railway up
-```
-
-#### Self-hosted
-```bash
-npm run build
-npm start
-```
 
 ## 🧪 Testing
 
@@ -320,63 +269,13 @@ npm start
 - Multi-language support
 - Advanced comparison metrics
 
-## 🤝 Contributing
-
-### Development Guidelines
-
-1. **Code Style**
-   - Follow TypeScript best practices
-   - Use ESLint and Prettier
-   - Maintain component modularity
-   - Add comprehensive types
-
-2. **Testing**
-   - Test edge cases thoroughly
-   - Validate adversarial inputs
-   - Check mobile responsiveness
-   - Performance optimization
-
-3. **Documentation**
-   - Comment complex algorithms
-   - Update README for new features
-   - Maintain type definitions
-   - Document API changes
-
-### Pull Request Process
-
-1. Fork the repository
-2. Create a feature branch
-3. Implement changes with tests
-4. Update documentation
-5. Submit pull request
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Google Gemini AI** for powerful language understanding
-- **Next.js Team** for the excellent React framework
-- **Tailwind CSS** for utility-first styling
-- **Vercel** for seamless deployment platform
-- **React Community** for extensive component ecosystem
-
 ## 📞 Support
 
 ### Getting Help
 - 📧 **Email**: pratyushg2001@gmail.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/MrPratsJi/Mobile-Chat-Agent/issues)
-
-### Reporting Issues
-When reporting bugs, please include:
-- Device and browser information
-- Steps to reproduce
-- Expected vs actual behavior
-- Console error messages
-
+- 🐛 **LinkedIn**: https://www.linkedin.com/in/pratyush-gupta24
+  
 ---
 
-**Built with ❤️ by [Your Name]** | **Powered by Google Gemini AI**
+**Built with ❤️ by Pratyush Gupta** | **Powered by Google Gemini AI**
 
-⭐ **If you find this project helpful, please consider giving it a star!**
