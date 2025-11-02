@@ -11,10 +11,8 @@ export default function HomePage() {
   const { agent, initializeAgent, startNewSession } = useChatStore();
 
   useEffect(() => {
-    const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY || 'demo-key';
-    
-    if (!agent && apiKey !== 'demo-key') {
-      initializeAgent(apiKey);
+    if (!agent) {
+      initializeAgent('server-key');
     }
 
     startNewSession();

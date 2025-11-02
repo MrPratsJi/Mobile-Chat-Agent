@@ -139,7 +139,7 @@ User Input → Safety Filter → Query Parser → Intent Detection → Response 
    
    Edit `.env.local` and add your Gemini API key:
    ```env
-   NEXT_PUBLIC_GEMINI_API_KEY=your_actual_api_key_here
+   GOOGLE_AI_API_KEY=your_actual_api_key_here
    ```
 
 4. **Start the development server**
@@ -165,7 +165,7 @@ User Input → Safety Filter → Query Parser → Intent Detection → Response 
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `NEXT_PUBLIC_GEMINI_API_KEY` | Google Gemini API key | ✅ Yes |
+| `GOOGLE_AI_API_KEY` | Google Gemini API key (server-side) | ✅ Yes |
 | `NEXT_PUBLIC_APP_NAME` | Application name | ❌ No |
 | `NEXT_PUBLIC_APP_URL` | Deployment URL | ❌ No |
 
@@ -214,7 +214,7 @@ Customize the AI agent in `src/lib/ai/mobile-chat-agent.ts`:
 3. **Set Environment Variables**
    In Vercel dashboard:
    - Go to Settings → Environment Variables
-   - Add `NEXT_PUBLIC_GEMINI_API_KEY` with your API key
+   - Add `GOOGLE_AI_API_KEY` with your API key
 
 ### Alternative Deployment Options
 
@@ -228,7 +228,7 @@ npm run build
 ```bash
 railway login
 railway init
-railway add --variable NEXT_PUBLIC_GEMINI_API_KEY=your_key
+railway add --variable GOOGLE_AI_API_KEY=your_key
 railway up
 ```
 
