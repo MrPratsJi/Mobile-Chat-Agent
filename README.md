@@ -4,7 +4,7 @@ A sophisticated AI-powered conversational shopping assistant for mobile phones, 
 
 ## 🚀 Live Demo
 
-**🔗 [Try the Live Demo](https://your-deployment-url.vercel.app)**
+**🔗 [Try the Live Demo](https://mobile-chat-agent-five.vercel.app)**
 
 > 🎯 **Try these sample queries:**
 > - "Best camera phone under ₹30,000?"
@@ -123,7 +123,7 @@ User Input → Safety Filter → Query Parser → Intent Detection → Response 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/mobile-chat-agent.git
+   git clone https://github.com/MrPratsJi/Mobile-Chat-Agent.git
    cd mobile-chat-agent
    ```
 
@@ -365,10 +365,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 📞 Support
 
 ### Getting Help
-- 📧 **Email**: your-email@example.com
-- 💬 **Discord**: [Join our community](https://discord.gg/your-server)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/mobile-chat-agent/issues)
-- 📖 **Documentation**: [Full docs](https://your-docs-url.com)
+- 📧 **Email**: pratyushg2001@gmail.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/MrPratsJi/Mobile-Chat-Agent/issues)
 
 ### Reporting Issues
 When reporting bugs, please include:
