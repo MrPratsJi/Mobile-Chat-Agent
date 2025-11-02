@@ -159,14 +159,6 @@ User Input → Safety Filter → Query Parser → Intent Detection → Response 
 3. Click "Create API Key"
 4. Copy the generated key to your `.env.local` file
 
-## 🔧 Configuration
-
-### Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `GOOGLE_AI_API_KEY` | Google Gemini API key (server-side)
-
 ### Customization
 
 #### Adding New Phones
